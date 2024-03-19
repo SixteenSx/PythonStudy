@@ -75,3 +75,5 @@ a=1.35
 print(type(a))
 a = int(a*100)
 print(type(a))
+a = int(a/100)
+print(type(a))
