@@ -33,6 +33,23 @@ print(text[2])
 # -1最后一个
 print(text[-1])
 # 切片
-print(text[0:3:])
+print(text[0:3])
+print(text[5:0:-1])
+print(text[5:0:-2])
+
+# 常见操作
+# 没找到返回-1
+print(text.find("x"))
+# index 和 find一样 没找到会报错
+print(text.index("x"))
+# 出现次数
+print(text.count("x"))
+# replace替换
+print(text.replace("x","m"))
+# split切分
+a = "hello,world"
+print(a.split(","))
+# cap
+print(a.capitalize())
 
 
